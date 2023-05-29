@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Sellout</title>
+</head>
+<body class="page">
+    <nav class="menu">
+        <div class="menu__container">
+            <a class="menu__item">Концерты</a>
+            <a class="menu__item">Мерч</a>
+            <a class="menu__item">Контакты</a>
+        </div>
+        <div class="share">
+            <span class="share__span">Соцсети</span>
+            <div class="share__container">
+              <a class="share__link" href="#"><img class="share__logo share__logo_vk" src="./image/vk.png"></a>
+              <a class="share__link" href="#"><img class="share__logo share__logo_youtube" src="./image/youtube.png"></a>
+              <a class="share__link" href="#"><img class="share__logo share__logo_telegram" src="./image/telegram.png"></a>
+              <a class="share__link" href="#"><img class="share__logo share__logo_insta" src="./image/insta.png"></a>
+            </div>
+          </div>
+    </nav>
+    <header class="header">
+        <img class="header__logo" src="./image/Vertikal-sellout-white.png">
+        <video class="header__video" src="./image/header__video.mp4" autoplay="autoplay" loop="loop" preload="auto" muted="true"></video>
+        <img class="header__pointer" src="./image/pointer.png">
+    </header>
+    <section class="concerts">
+        <canvas class="stars" id="stars"></canvas>
+        <h2 class="concerts__heading">ЖДЕМ ТЕБЯ ТУТ &#9660;</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Кардиофест Екатеринбург</div>
+                    <div class="num">10.06</div>
+                    <img class="img" src="./image/пляж.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Полигон Фест Санкт&nbsp;-&nbsp;Петербург</div>
+                    <div class="num">17.06</div>
+                    <img class="img" src="./image/spb.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Полигон Фест Москва</div>
+                    <div class="num">18.06</div>
+                    <img class="img" src="./image/msk.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Доброфест Левцово</div>
+                    <div class="num"></div>
+                    <img class="img" src="./image/df.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Motofest 48 RUS Елец</div>
+                    <div class="num">07.07</div>
+                    <img class="img" src="./image/mf.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Добрый рок Псков</div>
+                    <div class="num">09.07</div>
+                    <img class="img" src="./image/живой.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Улетай Удмуртия</div>
+                    <div class="num">15.07</div>
+                    <img class="img" src="./image/fly.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Пляж Челябинск</div>
+                    <div class="num"></div>
+                    <img class="img" src="./image/cf.jpg">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Рок Остров Краснодарский&nbsp;край</div>
+                    <div class="num">29.07</div>
+                    <img class="img" src="./image/рок остров.jpg" />
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <div class="title">Живой Санкт&nbsp;-&nbsp;Петербург</div>
+                    <div class="num"></div>
+                    <img class="img" src="./image/rock.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="cursor"></div>
+        <div class="cursor cursor2"></div>
+        <!-- <iframe class="concerts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A109cd1e188304e1099b7befb481fcfe8e8ba228c20612a93afcf51990ed42698&amp;source=constructor" 
+        frameborder="0"></iframe> -->
+    </section>
+
+
+    <script src="./src/stars.js"></script>
+    <script src="./src/share.js"></script>
+    <script src="./src/cards.js"></script>
+</body>
+</html>
